@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <appHeader></appHeader>
+    <app-header></app-header>
     <router-view></router-view>
-    <input type="text" ref="input">
   </div>
 </template>
 
@@ -10,7 +9,7 @@
 import Header from './components/Header.vue'
 export default {
   components: {
-    appHeader: Header
+    'app-header': Header
   },
   data: {
     
