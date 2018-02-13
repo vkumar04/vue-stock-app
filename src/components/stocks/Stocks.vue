@@ -1,9 +1,15 @@
 <template>
   <div>
     <h1>Stocks Template</h1>
+    <div class="row">
+      <div v-for="stock in stocks" :key="stock.id">
+        <Stock></Stock>
+      </div>
+    </div>
   </div>
 </template>
 <script>
+import Stock from './Stock.vue';
 export default {
   data() {
     return {
@@ -14,6 +20,9 @@ export default {
         {id: 4, name: 'Twitter', price: 8},
       ]
     }
-  }
+  },
+  components: {
+    Stock
+  },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <router-link to="/" class="navbar-brand"><a>Stock App</a></router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,9 +27,6 @@
 <style>
   .navbar{
     margin: 40px 0;
-  }
-  .navbar-dark{
-    background: #3FC1C9!important;
   }
 </style>
 
