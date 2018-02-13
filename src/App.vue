@@ -11,9 +11,9 @@ export default {
   components: {
     'app-header': Header
   },
-  data: {
-    
-  }
+  created() {
+    this.$store.dispatch('initStocks')
+  } 
 }
 </script>
 <style lang="css" scoped>
