@@ -3,7 +3,7 @@
     <h1>Stocks Template</h1>
     <div class="row">
       <div v-for="stock in stocks" :key="stock.id">
-        <Stock></Stock>
+        <Stock :stock="stock"></Stock>
       </div>
     </div>
   </div>
